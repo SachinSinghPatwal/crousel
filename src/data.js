@@ -10,51 +10,51 @@ export const scenes = [
     ],
     gridItems: [
       {
-        img: "assets/img1.webp",
+        img: "../assets/img1.webp",
         caption: "Kai Vega",
       },
       {
-        img: "assets/img2.webp",
+        img: "../assets/img2.webp",
         caption: "Riven Juno",
       },
       {
-        img: "assets/img3.webp",
+        img: "../assets/img3.webp",
         caption: "Lex Orion",
       },
       {
-        img: "assets/img4.webp",
+        img: "../assets/img4.webp",
         caption: "Ash Kairos",
       },
       {
-        img: "assets/img5.webp",
+        img: "../assets/img5.webp",
         caption: "Juno Sol",
       },
       {
-        img: "assets/img6.webp",
+        img: "../assets/img6.webp",
         caption: "Soren Nyx",
       },
       {
-        img: "assets/img7.webp",
+        img: "../assets/img7.webp",
         caption: "Quinn Axon",
       },
       {
-        img: "assets/img8.webp",
+        img: "../assets/img8.webp",
         caption: "Zara Voss",
       },
       {
-        img: "assets/img9.webp",
+        img: "../assets/img9.webp",
         caption: "Hale B.",
       },
       {
-        img: "assets/img10.webp",
+        img: "../assets/img10.webp",
         caption: "Gundra Wex",
       },
       {
-        img: "assets/img11.webp",
+        img: "../assets/img11.webp",
         caption: "Extra One",
       },
       {
-        img: "assets/img12.webp",
+        img: "../assets/img12.webp",
         caption: "Extra Two",
       },
     ],
@@ -70,51 +70,51 @@ export const scenes = [
     ],
     gridItems: [
       {
-        img: "assets/img13.webp",
+        img: "../assets/img13.webp",
         caption: "Arlo Quinn",
       },
       {
-        img: "assets/img14.webp",
+        img: "../assets/img14.webp",
         caption: "Vera Kline",
       },
       {
-        img: "assets/img15.webp",
+        img: "../assets/img15.webp",
         caption: "Juno Vale",
       },
       {
-        img: "assets/img16.webp",
+        img: "../assets/img16.webp",
         caption: "Ember Dash",
       },
       {
-        img: "assets/img17.webp",
+        img: "../assets/img17.webp",
         caption: "Rylee Voss",
       },
       {
-        img: "assets/img18.webp",
+        img: "../assets/img18.webp",
         caption: "Harlow Nova",
       },
       {
-        img: "assets/img19.webp",
+        img: "../assets/img19.webp",
         caption: "Blake Lune",
       },
       {
-        img: "assets/img22.webp",
+        img: "../assets/img22.webp",
         caption: "Zephyr Kade",
       },
       {
-        img: "assets/img21.webp",
+        img: "../assets/img21.webp",
         caption: "Indigo Rae",
       },
       {
-        img: "assets/img22.webp",
+        img: "../assets/img22.webp",
         caption: "Kairo Jett",
       },
       {
-        img: "assets/img23.webp",
+        img: "../assets/img23.webp",
         caption: "Extra One",
       },
       {
-        img: "assets/img24.webp",
+        img: "../assets/img24.webp",
         caption: "Extra Two",
       },
     ],
@@ -130,51 +130,51 @@ export const scenes = [
     ], // Make this carousel's radius bigger than others
     gridItems: [
       {
-        img: "assets/img17.webp",
+        img: "../assets/img17.webp",
         caption: "Arlo Quinn",
       },
       {
-        img: "assets/img18.webp",
+        img: "../assets/img18.webp",
         caption: "Vera Kline",
       },
       {
-        img: "assets/img19.webp",
+        img: "../assets/img19.webp",
         caption: "Juno Vale",
       },
       {
-        img: "assets/img20.webp",
+        img: "../assets/img20.webp",
         caption: "Ember Dash",
       },
       {
-        img: "assets/img21.webp",
+        img: "../assets/img21.webp",
         caption: "Rylee Voss",
       },
       {
-        img: "assets/img22.webp",
+        img: "../assets/img22.webp",
         caption: "Harlow Nova",
       },
       {
-        img: "assets/img23.webp",
+        img: "../assets/img23.webp",
         caption: "Blake Lune",
       },
       {
-        img: "assets/img24.webp",
+        img: "../assets/img24.webp",
         caption: "Zephyr Kade",
       },
       {
-        img: "assets/img25.webp",
+        img: "../assets/img25.webp",
         caption: "Indigo Rae",
       },
       {
-        img: "assets/img26.webp",
+        img: "../assets/img26.webp",
         caption: "Kairo Jett",
       },
       {
-        img: "assets/img27.webp",
+        img: "../assets/img27.webp",
         caption: "Extra One",
       },
       {
-        img: "assets/img30.webp",
+        img: "../assets/img30.webp",
         caption: "Extra Two",
       },
     ],
@@ -190,51 +190,51 @@ export const scenes = [
     ],
     gridItems: [
       {
-        img: "assets/img13.webp",
+        img: "../assets/img13.webp",
         caption: "Arlo Quinn",
       },
       {
-        img: "assets/img14.webp",
+        img: "../assets/img14.webp",
         caption: "Vera Kline",
       },
       {
-        img: "assets/img15.webp",
+        img: "../assets/img15.webp",
         caption: "Juno Vale",
       },
       {
-        img: "assets/img16.webp",
+        img: "../assets/img16.webp",
         caption: "Ember Dash",
       },
       {
-        img: "assets/img17.webp",
+        img: "../assets/img17.webp",
         caption: "Rylee Voss",
       },
       {
-        img: "assets/img18.webp",
+        img: "../assets/img18.webp",
         caption: "Harlow Nova",
       },
       {
-        img: "assets/img19.webp",
+        img: "../assets/img19.webp",
         caption: "Blake Lune",
       },
       {
-        img: "assets/img22.webp",
+        img: "../assets/img22.webp",
         caption: "Zephyr Kade",
       },
       {
-        img: "assets/img21.webp",
+        img: "../assets/img21.webp",
         caption: "Indigo Rae",
       },
       {
-        img: "assets/img22.webp",
+        img: "../assets/img22.webp",
         caption: "Kairo Jett",
       },
       {
-        img: "assets/img23.webp",
+        img: "../assets/img23.webp",
         caption: "Extra One",
       },
       {
-        img: "assets/img24.webp",
+        img: "../assets/img24.webp",
         caption: "Extra Two",
       },
     ],
@@ -247,48 +247,48 @@ export const scenes = [
       "../assets/img43.webp",
       "../assets/img44.webp",
       "../assets/img45.webp",
-      "../assets/img46.webp", // 5 images
+      "../assets/img46.webp",
     ],
     radius: 600, // Make this carousel's radius bigger than others
     gridItems: [
       {
-        img: "assets/img42.webp",
+        img: "../assets/img42.webp",
         caption: "Yuki Star",
       },
       {
-        img: "assets/img43.webp",
+        img: "../assets/img43.webp",
         caption: "Ren Sora",
       },
       {
-        img: "assets/img44.webp",
+        img: "../assets/img44.webp",
         caption: "Mika Luna",
       },
       {
-        img: "assets/img45.webp",
+        img: "../assets/img45.webp",
         caption: "Aki Orion",
       },
       {
-        img: "assets/img46.webp",
+        img: "../assets/img46.webp",
         caption: "Hana Vega",
       },
       {
-        img: "assets/img47.webp",
+        img: "../assets/img47.webp",
         caption: "Rin Kai",
       },
       {
-        img: "assets/img48.webp",
+        img: "../assets/img48.webp",
         caption: "Sora Blaze",
       },
       {
-        img: "assets/img49.webp",
+        img: "../assets/img49.webp",
         caption: "Kyo Nova",
       },
       {
-        img: "assets/img50.webp",
+        img: "../assets/img50.webp",
         caption: "Extra One",
       },
       {
-        img: "assets/img51.webp",
+        img: "../assets/img51.webp",
         caption: "Extra Two",
       },
     ],
@@ -304,43 +304,43 @@ export const scenes = [
     ],
     gridItems: [
       {
-        img: "assets/img52.webp",
+        img: "../assets/img52.webp",
         caption: "Min Jae",
       },
       {
-        img: "assets/img53.webp",
+        img: "../assets/img53.webp",
         caption: "Soo Jin",
       },
       {
-        img: "assets/img54.webp",
+        img: "../assets/img54.webp",
         caption: "Hyeon Woo",
       },
       {
-        img: "assets/img55.webp",
+        img: "../assets/img55.webp",
         caption: "Ara Moon",
       },
       {
-        img: "assets/img56.webp",
+        img: "../assets/img56.webp",
         caption: "Jisoo Vega",
       },
       {
-        img: "assets/img57.webp",
+        img: "../assets/img57.webp",
         caption: "Dae Sun",
       },
       {
-        img: "assets/img58.webp",
+        img: "../assets/img58.webp",
         caption: "Yuna Blaze",
       },
       {
-        img: "assets/img59.webp",
+        img: "../assets/img59.webp",
         caption: "Jin Kyung",
       },
       {
-        img: "assets/img60.webp",
+        img: "../assets/img60.webp",
         caption: "Extra One",
       },
       {
-        img: "assets/img61.webp",
+        img: "../assets/img61.webp",
         caption: "Extra Two",
       },
     ],
