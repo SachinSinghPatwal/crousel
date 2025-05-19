@@ -59,6 +59,17 @@ import img58 from "/assets/img58.webp";
 import img59 from "/assets/img59.webp";
 import img60 from "/assets/img60.webp";
 import img61 from "/assets/img61.webp";
+import img62 from "/assets/img62.webp";
+import img63 from "/assets/img63.webp";
+import img64 from "/assets/img64.webp";
+import img65 from "/assets/img65.webp";
+import img66 from "/assets/img66.webp";
+import img67 from "/assets/img67.webp";
+import img68 from "/assets/img68.webp";
+import img69 from "/assets/img69.webp";
+import img70 from "/assets/img70.webp";
+import img71 from "/assets/img71.webp";
+import img72 from "/assets/img72.webp";
 
 export {
   img1,
@@ -120,4 +131,15 @@ export {
   img59,
   img60,
   img61,
+  img62,
+  img63,
+  img64,
+  img65,
+  img66,
+  img67,
+  img68,
+  img69,
+  img70,
+  img71,
+  img72,
 };
