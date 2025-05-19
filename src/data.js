@@ -146,8 +146,7 @@ export const scenes = [
   },
   {
     title: "Style Showcase — London",
-    images: [img42, img43, img44, img45, img46],
-    radius: 600,
+    images: [img42, img43, img44, img45],
     gridItems: [
       { img: img42, caption: "Yuki Star" },
       { img: img43, caption: "Ren Sora" },
@@ -165,7 +164,8 @@ export const scenes = [
   },
   {
     title: "Celestial Runway — Tokyo",
-    images: [img52, img53, img54, img55, img56],
+    images: [img52, img53, img54, img55, img56], // Added img56 as the fifth image
+    radius: 600,
     gridItems: [
       { img: img52, caption: "Min Jae" },
       { img: img53, caption: "Soo Jin" },
