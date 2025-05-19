@@ -136,7 +136,7 @@ export const scenes = [
   {
     title: "Style Showcase — London",
     images: [img42, img43, img44, img45, img46],
-    radius: 400,
+    radius: 600,
     gridItems: [
       { img: img42, caption: "Yuki Star" },
       { img: img43, caption: "Ren Sora" },
