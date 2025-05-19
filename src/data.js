@@ -1,348 +1,186 @@
-// --- Data for scenes and previews ---
+import {
+  img1,
+  img2,
+  img3,
+  img4,
+  img5,
+  img6,
+  img7,
+  img8,
+  img9,
+  img10,
+  img11,
+  img12,
+  img13,
+  img14,
+  img15,
+  img16,
+  img17,
+  img18,
+  img19,
+  img20,
+  img21,
+  img22,
+  img23,
+  img24,
+  img25,
+  img26,
+  img27,
+  img30,
+  img31,
+  img32,
+  img33,
+  img34,
+  img35,
+  img36,
+  img37,
+  img38,
+  img39,
+  img40,
+  img41,
+  img42,
+  img43,
+  img44,
+  img45,
+  img46,
+  img47,
+  img48,
+  img49,
+  img50,
+  img51,
+  img52,
+  img53,
+  img54,
+  img55,
+  img56,
+  img57,
+  img58,
+  img59,
+  img60,
+  img61,
+} from "./files.js";
+
 export const scenes = [
   {
     title: "Haute Couture Nights — Paris",
-    images: [
-      "../assets/img1.webp",
-      "../assets/img2.webp",
-      "../assets/img3.webp",
-      "../assets/img4.webp",
-    ],
+    images: [img1, img2, img3, img4],
     gridItems: [
-      {
-        img: "../assets/img1.webp",
-        caption: "Kai Vega",
-      },
-      {
-        img: "../assets/img2.webp",
-        caption: "Riven Juno",
-      },
-      {
-        img: "../assets/img3.webp",
-        caption: "Lex Orion",
-      },
-      {
-        img: "../assets/img4.webp",
-        caption: "Ash Kairos",
-      },
-      {
-        img: "../assets/img5.webp",
-        caption: "Juno Sol",
-      },
-      {
-        img: "../assets/img6.webp",
-        caption: "Soren Nyx",
-      },
-      {
-        img: "../assets/img7.webp",
-        caption: "Quinn Axon",
-      },
-      {
-        img: "../assets/img8.webp",
-        caption: "Zara Voss",
-      },
-      {
-        img: "../assets/img9.webp",
-        caption: "Hale B.",
-      },
-      {
-        img: "../assets/img10.webp",
-        caption: "Gundra Wex",
-      },
-      {
-        img: "../assets/img11.webp",
-        caption: "Extra One",
-      },
-      {
-        img: "../assets/img12.webp",
-        caption: "Extra Two",
-      },
+      { img: img1, caption: "Kai Vega" },
+      { img: img2, caption: "Riven Juno" },
+      { img: img3, caption: "Lex Orion" },
+      { img: img4, caption: "Ash Kairos" },
+      { img: img5, caption: "Juno Sol" },
+      { img: img6, caption: "Soren Nyx" },
+      { img: img7, caption: "Quinn Axon" },
+      { img: img8, caption: "Zara Voss" },
+      { img: img9, caption: "Hale B." },
+      { img: img10, caption: "Gundra Wex" },
+      { img: img11, caption: "Extra One" },
+      { img: img12, caption: "Extra Two" },
     ],
   },
-
   {
     title: "Vogue Evolution — New York City",
-    images: [
-      "../assets/img13.webp",
-      "../assets/img14.webp",
-      "../assets/img15.webp",
-      "../assets/img16.webp",
-    ],
+    images: [img13, img14, img15, img16],
     gridItems: [
-      {
-        img: "../assets/img13.webp",
-        caption: "Arlo Quinn",
-      },
-      {
-        img: "../assets/img14.webp",
-        caption: "Vera Kline",
-      },
-      {
-        img: "../assets/img15.webp",
-        caption: "Juno Vale",
-      },
-      {
-        img: "../assets/img16.webp",
-        caption: "Ember Dash",
-      },
-      {
-        img: "../assets/img17.webp",
-        caption: "Rylee Voss",
-      },
-      {
-        img: "../assets/img18.webp",
-        caption: "Harlow Nova",
-      },
-      {
-        img: "../assets/img19.webp",
-        caption: "Blake Lune",
-      },
-      {
-        img: "../assets/img22.webp",
-        caption: "Zephyr Kade",
-      },
-      {
-        img: "../assets/img21.webp",
-        caption: "Indigo Rae",
-      },
-      {
-        img: "../assets/img22.webp",
-        caption: "Kairo Jett",
-      },
-      {
-        img: "../assets/img23.webp",
-        caption: "Extra One",
-      },
-      {
-        img: "../assets/img24.webp",
-        caption: "Extra Two",
-      },
+      { img: img13, caption: "Arlo Quinn" },
+      { img: img14, caption: "Vera Kline" },
+      { img: img15, caption: "Juno Vale" },
+      { img: img16, caption: "Ember Dash" },
+      { img: img17, caption: "Rylee Voss" },
+      { img: img18, caption: "Harlow Nova" },
+      { img: img19, caption: "Blake Lune" },
+      { img: img22, caption: "Zephyr Kade" },
+      { img: img21, caption: "Indigo Rae" },
+      { img: img22, caption: "Kairo Jett" },
+      { img: img23, caption: "Extra One" },
+      { img: img24, caption: "Extra Two" },
     ],
   },
-
   {
     title: "Glamour in the Desert — Dubai",
-    images: [
-      "../assets/img17.webp",
-      "../assets/img18.webp",
-      "../assets/img19.webp",
-      "../assets/img20.webp",
-    ], // Make this carousel's radius bigger than others
+    images: [img17, img18, img19, img20],
     gridItems: [
-      {
-        img: "../assets/img17.webp",
-        caption: "Arlo Quinn",
-      },
-      {
-        img: "../assets/img18.webp",
-        caption: "Vera Kline",
-      },
-      {
-        img: "../assets/img19.webp",
-        caption: "Juno Vale",
-      },
-      {
-        img: "../assets/img20.webp",
-        caption: "Ember Dash",
-      },
-      {
-        img: "../assets/img21.webp",
-        caption: "Rylee Voss",
-      },
-      {
-        img: "../assets/img22.webp",
-        caption: "Harlow Nova",
-      },
-      {
-        img: "../assets/img23.webp",
-        caption: "Blake Lune",
-      },
-      {
-        img: "../assets/img24.webp",
-        caption: "Zephyr Kade",
-      },
-      {
-        img: "../assets/img25.webp",
-        caption: "Indigo Rae",
-      },
-      {
-        img: "../assets/img26.webp",
-        caption: "Kairo Jett",
-      },
-      {
-        img: "../assets/img27.webp",
-        caption: "Extra One",
-      },
-      {
-        img: "../assets/img30.webp",
-        caption: "Extra Two",
-      },
+      { img: img17, caption: "Arlo Quinn" },
+      { img: img18, caption: "Vera Kline" },
+      { img: img19, caption: "Juno Vale" },
+      { img: img20, caption: "Ember Dash" },
+      { img: img21, caption: "Rylee Voss" },
+      { img: img22, caption: "Harlow Nova" },
+      { img: img23, caption: "Blake Lune" },
+      { img: img24, caption: "Zephyr Kade" },
+      { img: img25, caption: "Indigo Rae" },
+      { img: img26, caption: "Kairo Jett" },
+      { img: img27, caption: "Extra One" },
+      { img: img30, caption: "Extra Two" },
     ],
   },
-
   {
     title: "Chic Couture Runway — Milan",
-    images: [
-      "../assets/img13.webp",
-      "../assets/img14.webp",
-      "../assets/img15.webp",
-      "../assets/img16.webp",
-    ],
+    images: [img13, img14, img15, img16],
     gridItems: [
-      {
-        img: "../assets/img13.webp",
-        caption: "Arlo Quinn",
-      },
-      {
-        img: "../assets/img14.webp",
-        caption: "Vera Kline",
-      },
-      {
-        img: "../assets/img15.webp",
-        caption: "Juno Vale",
-      },
-      {
-        img: "../assets/img16.webp",
-        caption: "Ember Dash",
-      },
-      {
-        img: "../assets/img17.webp",
-        caption: "Rylee Voss",
-      },
-      {
-        img: "../assets/img18.webp",
-        caption: "Harlow Nova",
-      },
-      {
-        img: "../assets/img19.webp",
-        caption: "Blake Lune",
-      },
-      {
-        img: "../assets/img22.webp",
-        caption: "Zephyr Kade",
-      },
-      {
-        img: "../assets/img21.webp",
-        caption: "Indigo Rae",
-      },
-      {
-        img: "../assets/img22.webp",
-        caption: "Kairo Jett",
-      },
-      {
-        img: "../assets/img23.webp",
-        caption: "Extra One",
-      },
-      {
-        img: "../assets/img24.webp",
-        caption: "Extra Two",
-      },
+      { img: img13, caption: "Arlo Quinn" },
+      { img: img14, caption: "Vera Kline" },
+      { img: img15, caption: "Juno Vale" },
+      { img: img16, caption: "Ember Dash" },
+      { img: img17, caption: "Rylee Voss" },
+      { img: img18, caption: "Harlow Nova" },
+      { img: img19, caption: "Blake Lune" },
+      { img: img22, caption: "Zephyr Kade" },
+      { img: img21, caption: "Indigo Rae" },
+      { img: img22, caption: "Kairo Jett" },
+      { img: img23, caption: "Extra One" },
+      { img: img24, caption: "Extra Two" },
     ],
   },
-
   {
     title: "Style Showcase — London",
-    images: [
-      "../assets/img42.webp",
-      "../assets/img43.webp",
-      "../assets/img44.webp",
-      "../assets/img45.webp",
-      "../assets/img46.webp",
-    ],
-    radius: 600, // Make this carousel's radius bigger than others
+    images: [img42, img43, img44, img45, img46],
+    radius: 400,
     gridItems: [
-      {
-        img: "../assets/img42.webp",
-        caption: "Yuki Star",
-      },
-      {
-        img: "../assets/img43.webp",
-        caption: "Ren Sora",
-      },
-      {
-        img: "../assets/img44.webp",
-        caption: "Mika Luna",
-      },
-      {
-        img: "../assets/img45.webp",
-        caption: "Aki Orion",
-      },
-      {
-        img: "../assets/img46.webp",
-        caption: "Hana Vega",
-      },
-      {
-        img: "../assets/img47.webp",
-        caption: "Rin Kai",
-      },
-      {
-        img: "../assets/img48.webp",
-        caption: "Sora Blaze",
-      },
-      {
-        img: "../assets/img49.webp",
-        caption: "Kyo Nova",
-      },
-      {
-        img: "../assets/img50.webp",
-        caption: "Extra One",
-      },
-      {
-        img: "../assets/img51.webp",
-        caption: "Extra Two",
-      },
+      { img: img42, caption: "Yuki Star" },
+      { img: img43, caption: "Ren Sora" },
+      { img: img44, caption: "Mika Luna" },
+      { img: img45, caption: "Aki Orion" },
+      { img: img46, caption: "Hana Vega" },
+      { img: img47, caption: "Rin Kai" },
+      { img: img48, caption: "Sora Blaze" },
+      { img: img49, caption: "Kyo Nova" },
+      { img: img50, caption: "Extra One" },
+      { img: img51, caption: "Extra Two" },
     ],
   },
-
   {
-    title: "Future Fashion Forward — Tokyo",
-    images: [
-      "../assets/img52.webp",
-      "../assets/img53.webp",
-      "../assets/img54.webp",
-      "../assets/img55.webp",
-    ],
+    title: "Celestial Runway — Tokyo",
+    images: [img52, img53, img54, img55, img56],
     gridItems: [
-      {
-        img: "../assets/img52.webp",
-        caption: "Min Jae",
-      },
-      {
-        img: "../assets/img53.webp",
-        caption: "Soo Jin",
-      },
-      {
-        img: "../assets/img54.webp",
-        caption: "Hyeon Woo",
-      },
-      {
-        img: "../assets/img55.webp",
-        caption: "Ara Moon",
-      },
-      {
-        img: "../assets/img56.webp",
-        caption: "Jisoo Vega",
-      },
-      {
-        img: "../assets/img57.webp",
-        caption: "Dae Sun",
-      },
-      {
-        img: "../assets/img58.webp",
-        caption: "Yuna Blaze",
-      },
-      {
-        img: "../assets/img59.webp",
-        caption: "Jin Kyung",
-      },
-      {
-        img: "../assets/img60.webp",
-        caption: "Extra One",
-      },
-      {
-        img: "../assets/img61.webp",
-        caption: "Extra Two",
-      },
+      { img: img52, caption: "Min Jae" },
+      { img: img53, caption: "Soo Jin" },
+      { img: img54, caption: "Hyeon Woo" },
+      { img: img55, caption: "Ara Moon" },
+      { img: img56, caption: "Jisoo Vega" },
+      { img: img57, caption: "Dae Sun" },
+      { img: img58, caption: "Yuna Blaze" },
+      { img: img59, caption: "Jin Kyung" },
+      { img: img60, caption: "Extra One" },
+      { img: img61, caption: "Extra Two" },
+    ],
+  },
+  {
+    title: "Neon Dreams — Seoul",
+    images: [img31, img32, img33, img34],
+    gridItems: [
+      { img: img31, caption: "Eden Frost" },
+      { img: img32, caption: "Milo Ash" },
+      { img: img33, caption: "Nova Lane" },
+      { img: img34, caption: "Sage Onyx" },
+      { img: img35, caption: "River Lux" },
+      { img: img36, caption: "Sky Vega" },
+      { img: img37, caption: "Pax Wynn" },
+      { img: img38, caption: "Lark Voss" },
+      { img: img39, caption: "Echo Blaise" },
+      { img: img40, caption: "Extra One" },
+      { img: img41, caption: "Extra Two" },
     ],
   },
 ];
